@@ -8,6 +8,10 @@ Esse repositório contém o API Gateway pertencente a essa arquitetura de micros
 ### Link do Repositório: Microservice Legend
   - https://github.com/adolpho-cavalcanti/microservice-legends
 
+### OBSERVAÇÃO
+  - Lembrando que para as requisições funcionarem, os dois projetos precisam estar rodando, além de você ter um serviço de mensageria(RabbitMQ) rodando e configurado nos projetos.
+  - o arquivo .env.example tem variável de ambiente referente aos serviços hospdados na cloud como o RabbitMQ no EC2 da AWS e um Cluster no MongoDB Atlas rodando no microservice LegendCards.
+
 ## Installation
 
 ```bash
