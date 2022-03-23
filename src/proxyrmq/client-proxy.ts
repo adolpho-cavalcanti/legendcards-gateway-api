@@ -1,9 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { ClientProxy, ClientProxyFactory, Transport } from "@nestjs/microservices";
 
-const user = process.env.RABBITMQ_USER;
-const pass = process.env.RABBITMQ_PASS;
-const console = process.env.RABBITMQ_CONSOLE;
+const rabbitmqUrl = process.env.RABBITMQ_URL;
 
 @Injectable()
 export class ClientProxyMicroLegend {
@@ -11,7 +9,7 @@ export class ClientProxyMicroLegend {
         return ClientProxyFactory.create({
             transport: Transport.RMQ,
             options: {
-              urls: [`amqp://${user}:${pass}@3.89.120.123:5672/${console}`],
+              urls: [`amqp://${rabbitmqUrl}`],
               queue: 'micro-legend'
             }
         })
