@@ -3,7 +3,7 @@
 Projeto LegendsCards referente ao curso: https://www.udemy.com/course/construindo-um-backend-escalavel-com-nestjs-aws-e-pivotalws/
 
 Esse repositório contém o API Gateway pertencente a essa arquitetura de microservices: <br>
-<img src="https://drive.google.com/file/d/12t1rHoYoHy5lJ3hhpbjxWW7RP-wlF-uP/edit" alt="Arquitetura" />
+<img src="https://thumbs2.imgbox.com/27/76/ixZCYsHy_t.jpeg" alt="arquitetura"/>
 
 ### Link do Repositório: Microservice Legend
   - https://github.com/adolpho-cavalcanti/microservice-legends
